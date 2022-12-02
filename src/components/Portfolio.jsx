@@ -11,32 +11,32 @@ const Portfolio = () => {
         {
           id: 1,
           src: arrayDestruct,
-          link:""
+          link:"https://www.w3schools.com/js/js_es6.asp"
         },
         {
           id: 2,
           src: reactParallax,
-          link:""
+          link:"https://www.npmjs.com/package/react-parallax"
         },
         {
           id: 3,
           src: navbar,
-          link:""
+          link:"http://responsive-nav.com/"
         },
         {
           id: 4,
           src: reactSmooth,
-          link:""
+          link:"https://www.npmjs.com/package/react-scroll"
         },
         {
           id: 5,
           src: installNode,
-          link:""
+          link:"https://www.npmjs.com/package/react-scroll"
         },
         {
           id: 6,
           src: reactWeather,
-          link:""
+          link:"https://www.npmjs.com/package/react-scroll"
         },
       ];
     
