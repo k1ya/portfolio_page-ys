@@ -10,7 +10,7 @@ const Home = () => {
              mx-auto items-center justify-center h-full px-4 md:flex-row text-white'>
             <div className=' flex flex-col justify-center h-full'>
                 <h2 className=' text-4xl sm:text-7xl font-bold'>
-                    I'm not a Fullstack Developer
+                    I'm Junior React Developer
                 </h2>
                 <p className=' text-gray-500 py-4 max-w-md'>
                     I have 12 years of experience learning in the ethiopian education system.

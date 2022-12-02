@@ -2,6 +2,7 @@ import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa' 
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import {CgTwitter} from 'react-icons/cg'
 
 const SocialLinks = () => {
     const links=[
@@ -43,7 +44,16 @@ const SocialLinks = () => {
             href:'../assets/transc.pdf',
             style:' rounded-br-md',
             download:true
-        }
+        },{
+          id:5,
+          child:(  
+              <>
+              Twitter<CgTwitter size={30} />
+              </>
+          ),
+          href:'https://github.com/k1ya',
+          
+      }
 
     ]
     return (
