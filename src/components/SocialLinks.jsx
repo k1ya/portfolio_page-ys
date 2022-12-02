@@ -35,6 +35,15 @@ const SocialLinks = () => {
             href:'mailto:foo@gmail.com',
             
         },{
+          id:5,
+          child:(  
+              <>
+              Twitter<CgTwitter size={30} />
+              </>
+          ),
+          href:'https://twitter.com',
+          
+      },{
             id:4,
             child:(  
                 <>
@@ -44,16 +53,7 @@ const SocialLinks = () => {
             href:'../assets/transc.pdf',
             style:' rounded-br-md',
             download:true
-        },{
-          id:5,
-          child:(  
-              <>
-              Twitter<CgTwitter size={30} />
-              </>
-          ),
-          href:'https://github.com/k1ya',
-          
-      }
+        }
 
     ]
     return (
