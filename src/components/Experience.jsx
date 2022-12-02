@@ -3,7 +3,7 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-
+import redux from "../assets/redux.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 
@@ -47,6 +47,12 @@ const Experience = () => {
           title: "GitHub",
           style: "shadow-gray-400",
         },
+        {
+          id:9,
+          src: redux,
+          title: "Redux",
+          style: "shadow-purple-800"
+        }
       ];
     
       return (
