@@ -51,7 +51,7 @@ const Experience = () => {
           id:9,
           src: redux,
           title: "Redux",
-          style: "shadow-purple-800"
+          style: " shadow-violet-800"
         }
       ];
     
